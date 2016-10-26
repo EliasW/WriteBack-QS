@@ -1,0 +1,43 @@
+<h1>QlikSense Write back to Database</h1>
+<section class="insert">
+    <h3>Insert Customer Budget</h3>
+    <form action="/insert" method="post">
+        <div class="input">
+            <label for="title">Customer ID</label>
+            <input type="text" id="title" name="title">
+        </div>
+        <div class="input">
+            <label for="content">Customer Budget</label>
+            <input type="text" id="content" name="content">
+        </div>
+        <button type="submit">INSERT</button>
+    </form>
+</section>
+
+<section class="update">
+    <h3>Update Budget</h3>
+    <form action="/update" method="post">
+
+        <div class="input">
+            <label for="title">Customer ID</label>
+            <input type="text" id="title" name="title">
+        </div>
+        <div class="input">
+            <label for="content">Customer Budget</label>
+            <input type="text" id="content" name="content">
+        </div>
+        
+        <button type="submit">UPDATE</button>
+    </form>
+</section>
+</section>
+<section class="delete">
+    <h3>Delete Budget</h3>
+    <form action="/delete" method="post">
+        <div class="input">
+            <label for="id">Customer ID</label>
+            <input type="text" id="id" name="id">
+        </div>
+        <button type="submit">DELETE</button>
+    </form>
+</section>
